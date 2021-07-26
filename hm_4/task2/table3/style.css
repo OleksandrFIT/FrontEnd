@@ -1,0 +1,18 @@
+.simple-table{
+    border-collapse: collapse;
+    width: 450px;
+    height: 200px;
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.simple-table td, .simple-table th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.head{
+    background-color: yellow;
+    font-size: 20px;
+    height: 47px;
+}

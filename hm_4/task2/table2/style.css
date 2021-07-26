@@ -1,0 +1,16 @@
+.simple-table{
+    border-collapse: collapse;
+    width: 600px;
+    height: 90px;
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.simple-table td{
+    border: 1px groove black;
+    text-align: left;
+}
+
+.yellow-cell{
+    background-color: yellow;
+}

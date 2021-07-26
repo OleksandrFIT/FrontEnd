@@ -1,0 +1,46 @@
+.simple-table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+    margin: 40px 0;
+  }
+  
+  .simple-table td, .simple-table th {
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .red-cell {
+    background-color: red;
+  }
+  .blue-cell {
+    background-color: blue;
+  }
+  
+  .box{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    position: relative;
+    left: 10px;
+    top: 20px;
+  }
+
+  
+  .elem{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+  }
+
+  .elem-fixed{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: fixed;
+  }
