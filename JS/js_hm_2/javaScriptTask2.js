@@ -8,13 +8,10 @@ var employeeSalaries= {
 
 let sum = 0;
 let objLength= Object.keys(employeeSalaries).length;
-if(objLength != 0){
-   for(key in employeeSalaries){
-    sum = sum + employeeSalaries[key];
-   }
-} else{
-    sum = null;
-    console.log('Sum is= ' + sum);
+
+for(key in employeeSalaries){
+ sum = sum + employeeSalaries[key];
 }
+
 
 console.log('Summa equals= '+ sum);
