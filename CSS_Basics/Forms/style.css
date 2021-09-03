@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.forms{
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.form-input,
+.form-button{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-weight: normal;
+}
+
+.group-form{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.form-label{
+    position: absolute;
+   
+    z-index: -1;
+    color: 9e9e9e;
+    transition: 0.3s;
+}

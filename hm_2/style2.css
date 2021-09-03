@@ -1,12 +1,18 @@
+.header{
+    font-family: sans-serif;
+}
+
 .text-message{
     color:red
 }
 .courses-list {
     color:blue
 }
-strong {
-    font-family: 'Roboto', sans-serif;
-}
-#one {
+
+.info {
     color:grey
+}
+.dots{
+    list-style-type: disc;
+    color: black;
 }

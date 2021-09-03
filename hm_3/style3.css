@@ -4,17 +4,41 @@ body{
 }
 
 .header{
-    font-size: 40px;
-    font-family: 'Yomogi', cursive;
     text-align: center;
+    font-size: 2em;
+    font-family: 'Yomogi', cursive;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    letter-spacing: 7px;
+    font-size: 40px;
 }
 
-.font1{
-    font-family: 'Yomogi', cursive;
+.admin-center{
+    text-decoration: underline;
 }
 
-.zmist{
-    font-size: 40px;
+.countries{
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.content{
     text-align: center;
+    font-size: 2em;
     margin-left: auto;
+    font-family: sans-serif;
+}
+
+.part-numbers{
+    text-transform: uppercase; 
+    font-size: larger;
+    font-weight: normal;
+}
+
+.city-name{
+    font-size: larger;
+}
+
+.line{
+    text-decoration: line-through;
 }

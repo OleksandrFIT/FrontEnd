@@ -1,0 +1,25 @@
+.page-form {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .page-form__headling {
+    text-align: center;
+    background: green;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .page-form__label, .page-form__label-text, .page-form__input {
+    display: block;
+  }
+  
+  .page-form__input:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px blue;
+  }

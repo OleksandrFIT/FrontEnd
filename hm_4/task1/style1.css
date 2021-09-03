@@ -1,18 +1,33 @@
-.group1{
+.black-color{
     font-size: smaller;
 }
 
-.group2{
+.red-color{
     color: red;
     font-size: large;
 }
 
-.group3{
+.green-color{
     color: green;
     font-size: large;
 }
 
-.group4{
+.blue-color{
     color: blue;
     font-size: large;
+}
+
+.against-imphery{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fired{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.death{
+    font-style: italic;
+    font-weight: bold;
 }

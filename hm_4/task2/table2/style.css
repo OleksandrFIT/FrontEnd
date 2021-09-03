@@ -2,8 +2,10 @@
     border-collapse: collapse;
     width: 600px;
     height: 90px;
-    font-size: 20px;
+    font-size: 16px;
     margin: 40px 0;
+    box-sizing: border-box;
+    table-layout: fixed;
 }
 
 .simple-table td{

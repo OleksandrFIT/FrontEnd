@@ -1,0 +1,70 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Псевдокласи*/
+
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: springgreen;
+}
+/*visited - only links*/
+
+
+a:active{
+    color: brown;
+}
+
+a:focus{
+    font-weight: bold;
+}
+
+
+
+
+/*Псевдоелементи*/
+
+p::first-letter{
+    font-size: 40px;
+}
+
+p::first-line{
+    text-decoration: underline;
+}
+
+p::selection {
+/*виділення*/
+background-color: yellow;
+color: red;
+}
+
+h1::before{
+    content: "this is ";
+}
+
+h1::after{
+    content: " chanel";
+}
+
+.list1 li:first-child{
+    color: blue;
+}
+
+
+.list1 li:first-child{
+    color: purple;
+}
+
+.list2 li:nth-child(even){
+    color: blue;
+}
+
+.list2 li:nth-child(odd){
+    color: green;
+}

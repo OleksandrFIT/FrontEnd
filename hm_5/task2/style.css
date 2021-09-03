@@ -1,0 +1,59 @@
+body{
+    background: url(./bg.jpg);
+    background-size: cover;
+}
+
+.header{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 23px;
+    text-align: left;
+}
+
+.text{
+    display: block;
+    border-style: double;
+    height: min-content;
+    width: 50%;
+    background-color: rgb(238, 208, 242);
+    position: relative;
+    float: right;
+}
+
+.about-us{
+    color: blue;
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-team{
+    color: red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.courses{
+    color: blue;
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.knowledge{
+    color: rgb(85, 2, 85);
+    font-style: italic;
+    font-size: large;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}

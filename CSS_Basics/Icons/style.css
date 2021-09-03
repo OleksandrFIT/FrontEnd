@@ -1,0 +1,59 @@
+section {
+    height: 400px;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px double black;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    height: 100px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.fa-check-circle {
+    color: greenyellow;
+    font-size: 1.4em;
+}
+
+.first:hover .fa-check-circle {
+    color: red;
+    font-size: 1.4em;
+}
+
+.fa-arrows-h {
+    color: black;
+    font-size: 1.4em;
+}
+
+.second:hover .fa-arrows-h {
+    color: orange;
+}
+
+.fa-star {
+    color: blue;
+}
+
+.third:hover .fa-star {
+    color: black;
+}

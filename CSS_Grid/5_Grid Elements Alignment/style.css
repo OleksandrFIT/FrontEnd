@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-item1{
+    align-self: center;
+    justify-self: end;
+}

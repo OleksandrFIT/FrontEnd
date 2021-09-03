@@ -1,0 +1,59 @@
+.main-img{
+    margin: 0;
+}
+
+.left-block{
+    display: grid;
+    margin-left: 100px;
+    margin-right: 30px;
+    width: 580px;
+    height: 75%;
+    background-color: white;
+}
+
+.ocean-label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+    
+
+
+.left-lorem{
+    color: lightgrey;
+    font-style: italic;
+    font-size: larger;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.left-lorem2{
+    color: black;
+    font-size: larger;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+article{
+
+    color: lightgrey;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.left-article2{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+
+
+

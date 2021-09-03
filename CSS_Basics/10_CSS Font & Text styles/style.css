@@ -1,0 +1,19 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: greenyellow;
+    text-decoration: underline overline;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 100px;
+
+    text-transform: capitalize;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 25px;
+}

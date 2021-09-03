@@ -14,5 +14,24 @@
 .head{
     background-color: yellow;
     font-size: 20px;
-    height: 47px;
+    
+}
+caption{
+    font-style: italic;
+    font-size: larger;
+}
+.day-of-week{
+    text-transform: uppercase; 
+}
+
+.time{
+    width: 30%;
+}
+
+.day{
+    width: 35%;
+}
+
+.price{
+    width: 60%;
 }

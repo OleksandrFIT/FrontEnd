@@ -1,0 +1,11 @@
+span,
+div{
+    border: greenyellow 2px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.test{
+    display: inline-block;
+    box-sizing: border-box;
+}

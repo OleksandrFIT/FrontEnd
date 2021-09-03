@@ -1,6 +1,6 @@
 .simple-table {
     border-collapse: collapse;
-    width: 500px;
+    width: 600px;
     height: 300px;
     font-size: 20px;
     margin: 40px 0;
@@ -9,4 +9,12 @@
 .simple-table td {
     border: 1px solid black;
     text-align: center;
+  }
+
+  .first{
+    height: 20%;
+  }
+
+  .second{
+    height: 20%;
   }

@@ -9,31 +9,35 @@
 </head>
 <body>
     <table class="simple-table">
-        <caption><i>Комп'ютерні курси</i></caption>
+        <caption>Комп'ютерні курси</caption>
         <thead class="head">
+            <tr></tr>
             <th></th>
-            <th width="30%">Час</th>
-            <th width="35%">Дні</th>
-            <th width="60%">Вартість</th>
+            <th  class="time">Час</th>
+            <th  class="day">Дні</th>
+            <th  class="price">Вартість</th>
         </thead>
-        <tr>
-            <td>C++</td>
-            <td rowspan="2">17:30-19:00</td>
-            <td>ПН-СР-ПТ</td>
-            <td>3 000 грн</td>
-        </tr>
-        <tr>
-            <td>C#</td>
-            
-            <td rowspan="2">ВТ-ЧТ</td>
-            <td>3 000 грн</td>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td>19:00-20:30</td>
-            
-            <td>3 000 грн</td>
-        </tr>
+        
+        <tbody>
+            <tr>
+                <td>C++</td>
+                <td rowspan="2">17:30-19:00</td>
+                <td class="day-of-week">пн-ср-пт</td>
+                <td>3 000 грн</td>
+            </tr>
+            <tr>
+                <td>C#</td>
+                
+                <td rowspan="2" day-of-week>вт-чт</td>
+                <td>3 000 грн</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>19:00-20:30</td>
+                
+                <td>3 000 грн</td>
+            </tr>
+        </tbody>
 
     </table>
 </body>

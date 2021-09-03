@@ -1,3 +1,54 @@
 .back{
     background-color: rgb(86, 197, 224);
 }
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.menu-item-ul {
+    padding: 0;
+    width: 100%;
+}
+
+.menu-item-li {
+    height: 40px;
+    width: 20%;
+    padding-top: 10px;
+    display: inline;
+    float: left;
+    text-align: center;
+    background-color: yellow;
+    border:  1px solid black;
+    box-sizing: border-box;
+}
+
+.big-heading{
+    text-align: center;
+ }
+
+.medium-heading{
+     text-align: left;
+     color: blue;
+ }
+ 
+ .general-list{
+     height: 200px;
+     text-align: left;
+     font-style: italic;
+     float: left;
+ }
+
+ .imagee{
+     width: 50%;
+     height: auto;
+     float: left;
+ }
+
+ section{
+     float: left;
+ }
+
