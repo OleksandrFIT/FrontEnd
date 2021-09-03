@@ -1,7 +1,8 @@
-var user= {
-    name: "ПИЛИП",
-    lastname: "ШЕВЧЕНКО"
-}
+var user= {}
+
+user.name= "ПИЛИП";
+
+user.lastname= "ШЕВЧЕНКО"
 
 for(var key in user){
     console.log(key + " Value: " + user[key]);

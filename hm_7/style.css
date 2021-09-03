@@ -2,15 +2,17 @@
     height: 570px;
     width: 520px;
     border: 2px solid rgb(172, 172, 172);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70px;
+    margin: 0 auto;
     border-radius: 10px;
+    overflow: hidden;
 }
 
-.header-frame{
-    box-sizing: border-box;
+.page-form_headling{
+    
     width: auto;
-    height: 30px;
-    color: rgb(49, 163, 112);
+    background: rgb(49, 163, 112);
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
 }
