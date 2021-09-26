@@ -1,3 +1,5 @@
+
+
 .rectangle-block{
     display: block;
     border: 5px double rgb(24, 21, 21);
@@ -7,7 +9,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
-   
+   padding-left: 40px;
+   padding-right: 40px;
 }
 
 
@@ -54,36 +57,37 @@ ul.list li.first-row li.second-row li.third-row{
     padding: 3px; 
 }
 
-.fa-check-circle{
+.first-font{
     color: rgb(109, 194, 94);
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 50px;
 }
 
-.fa-caret-right{
+.second-font-right{
     color: rgb(0, 0, 0);
-    margin-left: 57px;
+    margin-left: 70px;
     font-size: 30px;
 }
 
-.fa-caret-left{
+.second-font-left{
     color: rgb(0, 0, 0);
-    margin-right: 50px;
+    margin-right: 70px;
     font-size: 30px;
 }
 
-.fa-star{
+.third-font{
     color: rgb(4, 20 ,251);
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 60px;
 }
 
 .title{
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    font-family: sans-serif;
     font-size: 17px;
+    font-weight: 200;
 }
 
 .fa {
@@ -95,15 +99,15 @@ ul.list li.first-row li.second-row li.third-row{
     width: 2px;
 }
 
-.list:hover .fa-check-circle {
+.first-font:hover  {
     color: red;
 }
 
-.list-second:hover .fa-caret-left,
-.list-second:hover .fa-caret-right{
+.second-font-right:hover,
+.second-font-left:hover {
     color: orange;
 }
 
-.list-third:hover .fa-star{
+.third-font:hover {
     color: black;
 }

@@ -26,11 +26,19 @@
     box-sizing: border-box;
 }
 
-.big-heading{
+.ukraine-heading{
     text-align: center;
+    font-family: sans-serif;
+    margin-left: 60px;
+    font-size: 1.6em;
  }
 
-.medium-heading{
+.city-heading{
+    font-family: sans-serif;
+  
+}
+
+.content-heading{
      text-align: left;
      color: blue;
  }
@@ -42,13 +50,17 @@
      float: left;
  }
 
- .imagee{
-     width: 50%;
+ .content-picture{
+     width: 550px;
      height: auto;
      float: left;
  }
 
  section{
      float: left;
+     font-family: sans-serif;
+ }
+ a{
+     font-family: sans-serif;
  }
 

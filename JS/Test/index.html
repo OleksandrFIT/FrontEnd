@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="calculator">
+
+        <div class="menu-grid" id="operator_btns">
+
+            <button class="click-btn" onclick="plus()">+</button>
+            <button class="click-btn" onclick="minus()">-</button>
+            <button class="click-btn" onclick="multiply()">*</button>
+            <button class="click-btn" onclick="devide()">/</button>
+            
+        </div>
+
+        <hr class="grey-line">
+
+        <p class="first-label-text">Number 1</p>
+        <label for="first-number" class="page-form_label">
+            <input name="first-number" type="text" id="num1" class="page-form_input">
+        </label>
+
+        <p class="second-label-text">Number 2</p>
+        <label for="second-number" class="page-form_label">
+            <input name="second-number" type="text" id="num2" class="page-form_input">
+        </label>
+
+       
+        <!-- <button class="res" id="resultOf">Result : </button> -->
+        
+        <h1 class="res">Result : </h1>
+
+        <p class="resultOf" id="result"></p>
+
+    </form>
+    
+
+    <script src="./script.js"></script>
+
+    
+
+</body>
+</html>

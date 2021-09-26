@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator{
+    border: 3px solid black;
+    background-color: rgb(204, 255, 255);
+    height: 450px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+.grey-line{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(201, 201, 201);
+}
+
+.menu-grid{
+    margin-top: 60px;
+}
+
+.click-btn{
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 2em;
+}
+
+
+.first-label-text,
+.second-label-text{
+    text-align: center;
+    text-align: center;
+}
+
+
+.page-form_label{
+    display: block;
+    margin-left: 33.3%;
+    margin-bottom: 15px;
+    
+}
+
+.res{
+    margin-left: 150px;
+    font-size: 1.7em;
+    padding: 20px;
+}
+
+.resultOf{
+    margin-left: 150px;
+    font-size: 1.7em;
+    
+}
+
