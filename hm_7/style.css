@@ -110,11 +110,11 @@ input[type=radio] + .false-span {
   width: 14px; 
   height: 14px;
   border-radius: 50%;
-  border: 0.5px solid rgb(102, 102, 102);
+  border: 0.5px solid rgb(90, 90, 90);
 }
 
 input[type=radio]:checked + .false-span {
-  background-color: rgb(17,118,226);
+  background-color: rgb(16, 122, 235);
 }
 
 input[type=radio]:checked + .false-span::before { 
@@ -142,7 +142,7 @@ input[type=radio]:checked + .false-span::before {
 
 
 .page_checkbox:checked~.page_submit {
-  background: rgb(26, 121, 56);
+  background: rgb(26, 120, 56);
 }
 
   
