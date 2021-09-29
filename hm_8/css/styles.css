@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("../images/asia\ background.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.the_block {
+    width: 650px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.top_part_text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+.top-left_information_block {
+    width: 210px;
+}
+
+.asia-holidays {
+    font-family: 'Gluten', cursive;
+    width: 300px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.travel-asia {
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center;
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+.fa-globe {
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+
+
+.contacts {
+    font-family: 'Yaldevi', sans-serif;
+    text-align: left;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+.top-right_information_block {
+    width: 100px;
+    padding-top: 18px;
+}
+
+.number_and_address {
+    list-style-type: none;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 9px;
+}
+
+.pics_block {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pictures_top-row, .pictures_second-row {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+img {
+    width: 100%;
+    height: 145px;
+    border: 4px solid whitesmoke;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.picture {
+    height: min-content;
+    width: 205px;
+}
+
+.country-name {
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+.bottom_part_text {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+}
+
+.copyright {
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 10px;
+    text-align: center; 
+}
