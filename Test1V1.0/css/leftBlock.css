@@ -1,0 +1,289 @@
+
+.header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.main_logo {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(37, 33, 34);
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.main_menu {
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.menu_context {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid {
+    width: min-content;
+    height: 100%;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid .grid_news:hover {
+    background-color: rgb(242, 242, 242);
+    border: none;
+    border-radius: 5px;
+}
+
+.grid a {
+    text-decoration: none;
+    color: rgb(198, 198, 198);
+}
+
+.grid_news {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(204, 0, 68);
+}
+
+.grid_news:hover {
+    background-color: rgb(204, 0, 68);
+}
+
+.style-news a {
+    color: white;
+}
+
+.line {
+    width: 95%;
+    height: 10px;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    background-color: rgb(224, 223, 223);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main-text {
+    font-family: 'Yaldevi', sans-serif;
+    width: 95%;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(224, 223, 223);
+    font-size: 20px;
+}
+
+.ocean {
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.else {
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.conclusion{
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.general_article {
+    width: 780px;
+    height: min-content;
+    background-color: rgb(255, 255, 255);
+    margin-right: 28px;
+}
+
+.general_article_text {
+    font-family: 'Yaldevi', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(138, 138, 138);
+}
+
+.general_simple_text {
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: rgb(138, 138, 138);
+    padding-top: 0;
+}
+
+section p {
+    font-family: 'Yaldevi', sans-serif;
+    color: rgb(138, 138, 138);
+    line-height: 1.8;
+    padding-top: 7px;
+    padding-bottom: 38px;
+}
+
+.image_class {
+    width: 100%;
+    height: auto;
+}
+
+.right_block {
+    width: 372px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+}
+
+.right_block-dog {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+.right_block-fruits {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+.right-header{
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.right_block_text {
+    margin: 24px 35px;
+    font-size: 20px;
+}
+
+#fruit_list {
+    font-family: 'Yaldevi', sans-serif;
+    color: rgb(204, 0, 0);
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.manga-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 48px;
+}
+
+/* footer */
+
+.footer-text {
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.footer {
+    width: 332px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.footer_info:nth-child(3) {
+    width: 360px;
+}
+
+.footer_info{
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.footer_info h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer_list li {
+    border-bottom: 1px solid rgb(164, 166, 168);
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.footer_list li:last-child {
+    border-bottom: none;
+}
+
+.footer_list a {
+    font-size: 18px;
+    color: rgb(164, 166, 168);
+}
+
+.medias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.media img {
+    width: 54px;
+    height: auto;
+}
+
+.footer_lorem{
+    margin-top: 20px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts h3 {
+    width: 30%;
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.contacts p, .contacts a {
+    color: rgb(77, 77, 77);
+}
+
+.contacts li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    border-bottom: 1px solid rgb(164, 166, 168);
+    padding-top: 17px;
+    padding-bottom: 38px;
+}
